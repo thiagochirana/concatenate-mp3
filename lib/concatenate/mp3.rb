@@ -8,6 +8,7 @@ module Concatenate
     class ConcatenateError < StandardError; end
 
     def files(*files)
+      @mp3_files = []
     end
 
     def process
